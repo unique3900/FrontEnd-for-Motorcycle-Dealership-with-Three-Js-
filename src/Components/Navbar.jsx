@@ -7,12 +7,11 @@ const Container = styled.div`
   padding: 5px 0;
 `;
 const Section = styled.div`
-width: 70%;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-place-items: center;
-gap: 10px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
 `;
 const Logo = styled.img`
     width: 8rem;

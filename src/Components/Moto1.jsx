@@ -5,9 +5,13 @@ import { Cbr450 } from './Cbr450'
 import styled from 'styled-components'
 
 const Container = styled.div`
+ height: 100%;
+scroll-snap-align: center;
+width: 1400px;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+align-items: center;
 
 
 `;
