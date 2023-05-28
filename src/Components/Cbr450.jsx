@@ -10,8 +10,8 @@ Title: (FREE) Honda CRF 450
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/cbr450-transformed.glb')
+export function Cbr450(props) {
+  const { nodes, materials } = useGLTF('./img/cbr450-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <primitive object={nodes._rootJoint} />
