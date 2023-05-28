@@ -10,8 +10,8 @@ Title: Ducati Monster
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/ducatiMonster-transformed.glb')
+export function DucatiMonster(props) {
+  const { nodes, materials } = useGLTF('./img/ducatiMonster-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.meshNode_Material_u1_v1_0.geometry} material={materials.Material_u1_v1} position={[344.9, -28.38, 5.74]} rotation={[-1.41, 0.02, 0.13]} scale={100} />

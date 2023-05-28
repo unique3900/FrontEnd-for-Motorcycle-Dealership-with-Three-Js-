@@ -46,7 +46,7 @@ const Title2 = styled.h3`
 
 `;
 const Img = styled.img`
- width: 800px;
+ width: 500px;
   height: 500px;
   object-fit: contain;
   position: absolute;
@@ -81,11 +81,11 @@ export const Hero = () => {
 
         <RightDiv>
           <Canvas>
-            <OrbitControls enableZoom={true} />
+            <OrbitControls enableZoom={false} />
             <ambientLight intensity={2} />
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1,100,200]} scale={2.5}>
-            <MeshDistortMaterial color={"rebeccapurple"} attach="material" distort={0.3} speed={2}/>
+            <MeshDistortMaterial color={"#147e42"} attach="material" distort={0.3} speed={2}/>
             </Sphere>
           </Canvas>
 
